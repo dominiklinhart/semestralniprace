@@ -6,39 +6,121 @@
     <title>Document</title>
     <link rel="icon" href="ikona.png" type="image/png">
 <style>
-    body {
-        color: white;}
-    body {
-    background-color: rgb(20, 25, 37);
-    }
-    h1 {
-    color: white;
-    text-align: center;
-    font-family: Helvetica;
+        body {
+            margin: 20px;
+            background-color: #101522;
+            color: #e9edf5;
+            font-family: Arial, sans-serif;
+        }
 
-    }
-    h2 {
-    color: white;
-    }
-    .logo {
-        display: block;
-        width: 160px;
-        margin: 20px auto;
-    }
-    .code-box pre {
-    background-color: rgb(20, 25, 37);
-    }
-</style>
+        .page {
+            max-width: 100%;
+            margin: 0 auto 50px;
+        }
+
+        h1 {
+            color: white;
+            font-family:Helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        h2 {
+            color: #969696;
+            font-family:Helvetica, sans-serif;
+        }
+
+        .popisek {
+            display: inline-block;
+            margin: -12px 0 16px;
+            padding: 5px 5px;
+            border-radius: 10px;
+            background-color: #1a202c;
+            color: #e0e0e0;
+            font-size: 14px;
+
+        }
+
+        .steps {
+            padding-left: 2rem;
+            list-style-position: inside;
+        }
+
+        .steps li {
+            border: 2px solid #171e2d;
+            background: #171e2d;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #68b3fa;
+            text-decoration: none;
+        }
+    </style>
 </head>
+    <body>
+    <main>
+        <section class="page">
+            <h1>Jak vytvořit svůj první web</h1>
 
+            <h2>Vytvoření github účtu</h2>
 
-<body>
-    <h1>JAK VYTVOŘIT SVŮJ PRVNÍ WEB</h1>
-    <h2>Základy tvorby webu</h2>
-    Vytvoření github účtu
-    <ul>
-        <li>github.com</li>
-    </ul>
+            <p class="popisek">Než se vrhneš na programování, musíš si nejprve vytvořit github účet a nainstlovat Visual Studio Code.</p>
+
+            <ol class="steps">
+                <li>
+                    <strong>Otevři stránku registrace:</strong>
+                    <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">Otevřít registraci na GitHubu</a>.
+                </li>
+                <li>
+                    <strong>Zadej svůj e-mail.</strong> Použij adresu, ke které máš přístup.
+                </li>
+                <li>
+                    <strong>Vymysli si heslo a uživatelské jméno.</strong> Heslo nikomu neříkej.
+                </li>
+                <li>
+                    <strong>Dokonči ověření.</strong> Postupuj podle pokynů na obrazovce.
+                </li>
+                <li>
+                    <strong>Potvrď e-mail.</strong> Otevři zprávu od GitHubu a klikni na odkaz.
+                </li>
+                <li>
+                    <strong>Přihlas se.</strong> Použij e-mail nebo uživatelské jméno a heslo.
+                </li>
+            </ol>
+        </section>
+
+        <section class="page">
+        
+            <h2>Stažení a instalace Visual Studio Code</h2>
+            
+            <ol class="steps">
+                <li>
+                    <strong>Otevři stránku pro stažení:</strong>
+                    <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer">Otevřít stažení VS Code</a>.
+                </li>
+                <li>
+                    <strong>Vyber svůj systém.</strong> Zvol Windows, macOS nebo Linux.
+                </li>
+                <li>
+                    <strong>Stáhni soubor.</strong> Najdeš ho obvykle ve složce „Stažené soubory“.
+                </li>
+                <li>
+                    <strong>Spusť stažený soubor.</strong> Otevři složku „Stažené soubory“ a dvakrát klikni na něj.
+                </li>
+                <li>
+                    <strong>Nainstaluj program.</strong> Postupuj podle pokynů na obrazovce.
+                </li>
+                <li>
+                    <strong>Otevři VS Code.</strong> Najdi program v nabídce aplikací.
+                </li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
 
     <img class="logo" src="ikona.png" alt="Ikona webu">
     
